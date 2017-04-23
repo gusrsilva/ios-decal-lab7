@@ -88,6 +88,9 @@
         case add:
             total = operand1 + operand2;
             break;
+        case power:
+            total = pow(operand1, operand2);
+            break;
         default:
             break;
     }
